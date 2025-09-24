@@ -1,0 +1,10 @@
+git checkout -b feature-update
+mkdir -p reports
+touch reports/summary.md
+echo "This document provides a summary of the project updates." >> reports/summary.md
+git add reports
+touch reports/file1.txt reports/file2.txt reports/file3.txt
+mv data/raw-data.csv data/input-data.csv
+mkdir -p scripts/backup && cp scripts/*.py scripts/backup/
+rm docs/documentation.md
+git add -A && git commit -m "Update project files"
