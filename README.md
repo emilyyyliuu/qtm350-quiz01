@@ -54,3 +54,4 @@ These bonus questions are designed to test advanced Git and GitHub skills. Attem
 
 Best of luck!
 Hook test
+Updated for commands log
